@@ -1,4 +1,9 @@
-# Commandline-Calculator
-Basic commandline calculator to preform simple operations such as adding, subtracting, multiplying and dividing.
+**Commandline Calculator**
 
-Created by Zachary Vincze on October 7th 2015
+Basic commandline calculator to preform simple operations such as:
+- Adding
+- Subtracting
+- Dividing
+- Mutiplying
+
+Created by **Zachary Vincze** on October 7th 2015
