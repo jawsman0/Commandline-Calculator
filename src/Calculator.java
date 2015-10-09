@@ -1,9 +1,13 @@
-import java.util.scanner;
+/* This program was created by Zachary Vincze.
+Date created: 15/10/07 */
+
+import java.util.Scanner;
 
 public class Calculator {
   public static void main(String[] args) {
     Scanner userInput = new Scanner(System.in);
     
+    //Setting variables needed for program
     double firstNumber;
     double secondNumber;
     String operation;
@@ -12,14 +16,18 @@ public class Calculator {
     while(true) {
       System.out.println("Enter your first number");
       
+      //Getting user input for firstNumber
       if (userInput.hasNextDouble) {
         firstNumber = userInput.nextDouble();
         
         System.out.println("Please enter your second number");
         
+        //Getting user input for secondNumber
         if (userInput.hasNextDouble) {
-          System.out.println("Please enter an operation");
+          secondNumber = userInput.nextDouble();
           
+          //Getting user input for operation
+          System.out.println("Please enter an operation");
           operation = userInput.nextLine();
           
           switch(operation) {
