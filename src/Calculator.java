@@ -1,4 +1,8 @@
 /* This program was created by Zachary Vincze.
+
+Program Description: A simple command-line calculation program that
+allows simple calculations such as addition, multiplication, subtraction and division.
+
 Date created: 15/10/07 */
 
 import java.util.Scanner;
